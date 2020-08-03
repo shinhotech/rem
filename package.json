@@ -1,0 +1,30 @@
+{
+  "name": "rem",
+  "version": "1.0.0",
+  "description": "** 动态改变rem，基于iphone7 宽度375 1rem = 5px*",
+  "private": true,
+  "dependencies": {
+    "webpack": "^4.44.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinhotech/rem.git"
+  },
+  "author": "18040185",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinhotech/rem/issues"
+  },
+  "homepage": "https://github.com/shinhotech/rem#readme"
+}
