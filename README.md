@@ -10,12 +10,11 @@
 
 ```js
 1: 
-    <script src="./static/js/rem.js(引入路径)" type="module"></script>
-	note: type="module"
+	<script src="./dist/bundle.js"></script>
+	note: 使用文件为dist文件夹下bundle.js
 2:
-	import rem from '../static/js/rem(引入路径)'
+	import rem from 'rem'
 3: 
-	var rem = require('../static/js/rem')
-    note: 注意引入路径
+	var rem = require('rem')
 ```
 
